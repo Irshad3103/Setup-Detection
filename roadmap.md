@@ -1,0 +1,11 @@
+# Roadmap
+- [x] Build deterministic 100-stock synthetic OHLCV universe
+- [x] Implement indicators, resistance, setup, breakout, scoring, and historical validation
+- [x] Build dashboard, chart inspection, watchlist, comparison, and backtest workspaces
+- [x] Add an optional free market-data adapter with synthetic fallback
+- [x] Add metadata and semantic design system
+- [x] Verify desktop/mobile rendering and core interactions
+- [ ] Replace the synthetic universe with a CSV-driven Yahoo Finance stock universe
+- [ ] Load and analyse current Yahoo Finance daily histories in batches
+- [ ] Detect and label major, continuation, pullback, and late-stage setup families
+- [ ] Verify live loading, pattern filters, stock selection, and failure states

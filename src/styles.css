@@ -1,0 +1,246 @@
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+/*
+ * Design system definition.
+ *
+ * The @theme inline block maps CSS custom properties to Tailwind utility
+ * classes (e.g. --color-primary -> bg-primary, text-primary).
+ *
+ * The :root and .dark blocks define the actual color values using oklch.
+ * All colors MUST use oklch format.
+ *
+ * To add a new semantic color:
+ * 1. Add the variable to :root (light value) and .dark (dark value)
+ * 2. Register it in @theme inline as --color-<name>: var(--<name>)
+ */
+
+@theme inline {
+  --font-sans: "IBM Plex Sans", ui-sans-serif, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+  --radius-3xl: calc(var(--radius) + 12px);
+  --radius-4xl: calc(var(--radius) + 16px);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-ring-offset-background: var(--background);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-positive: var(--signal-positive);
+  --color-watch: var(--signal-watch);
+  --color-failed: var(--signal-failed);
+}
+
+:root {
+  --radius: 0.35rem;
+  --background: oklch(0.975 0.006 245);
+  --foreground: oklch(0.22 0.03 250);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.129 0.042 264.695);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.129 0.042 264.695);
+  --primary: oklch(0.47 0.12 238);
+  --primary-foreground: oklch(0.99 0 0);
+  --secondary: oklch(0.968 0.007 247.896);
+  --secondary-foreground: oklch(0.208 0.042 265.755);
+  --muted: oklch(0.94 0.008 245);
+  --muted-foreground: oklch(0.52 0.025 250);
+  --accent: oklch(0.968 0.007 247.896);
+  --accent-foreground: oklch(0.208 0.042 265.755);
+  --destructive: oklch(0.577 0.245 27.325);
+  --destructive-foreground: oklch(0.984 0.003 247.858);
+  --border: oklch(0.88 0.013 245);
+  --input: oklch(0.929 0.013 255.508);
+  --ring: oklch(0.704 0.04 256.788);
+  --chart-1: oklch(0.646 0.222 41.116);
+  --chart-2: oklch(0.6 0.118 184.704);
+  --chart-3: oklch(0.398 0.07 227.392);
+  --chart-4: oklch(0.828 0.189 84.429);
+  --chart-5: oklch(0.769 0.188 70.08);
+  --sidebar: oklch(0.984 0.003 247.858);
+  --sidebar-foreground: oklch(0.129 0.042 264.695);
+  --sidebar-primary: oklch(0.208 0.042 265.755);
+  --sidebar-primary-foreground: oklch(0.984 0.003 247.858);
+  --sidebar-accent: oklch(0.968 0.007 247.896);
+  --sidebar-accent-foreground: oklch(0.208 0.042 265.755);
+  --sidebar-border: oklch(0.929 0.013 255.508);
+  --sidebar-ring: oklch(0.704 0.04 256.788);
+  --signal-positive: oklch(0.55 0.15 154);
+  --signal-watch: oklch(0.72 0.15 82);
+  --signal-failed: oklch(0.58 0.2 28);
+  --signal-neutral: oklch(0.56 0.02 250);
+  --chart-grid: oklch(0.9 0.01 245);
+  --chart-price: oklch(0.44 0.12 235);
+  --chart-area: oklch(0.7 0.11 235);
+  --chart-ema21: oklch(0.66 0.16 68);
+  --chart-ema50: oklch(0.55 0.15 154);
+  --chart-ema200: oklch(0.54 0.13 315);
+  --chart-volume: oklch(0.57 0.035 245);
+}
+
+.dark {
+  --background: oklch(0.129 0.042 264.695);
+  --foreground: oklch(0.984 0.003 247.858);
+  --card: oklch(0.208 0.042 265.755);
+  --card-foreground: oklch(0.984 0.003 247.858);
+  --popover: oklch(0.208 0.042 265.755);
+  --popover-foreground: oklch(0.984 0.003 247.858);
+  --primary: oklch(0.929 0.013 255.508);
+  --primary-foreground: oklch(0.208 0.042 265.755);
+  --secondary: oklch(0.279 0.041 260.031);
+  --secondary-foreground: oklch(0.984 0.003 247.858);
+  --muted: oklch(0.279 0.041 260.031);
+  --muted-foreground: oklch(0.704 0.04 256.788);
+  --accent: oklch(0.279 0.041 260.031);
+  --accent-foreground: oklch(0.984 0.003 247.858);
+  --destructive: oklch(0.704 0.191 22.216);
+  --destructive-foreground: oklch(0.984 0.003 247.858);
+  --border: oklch(1 0 0 / 10%);
+  --input: oklch(1 0 0 / 15%);
+  --ring: oklch(0.551 0.027 264.364);
+  --chart-1: oklch(0.488 0.243 264.376);
+  --chart-2: oklch(0.696 0.17 162.48);
+  --chart-3: oklch(0.769 0.188 70.08);
+  --chart-4: oklch(0.627 0.265 303.9);
+  --chart-5: oklch(0.645 0.246 16.439);
+  --sidebar: oklch(0.208 0.042 265.755);
+  --sidebar-foreground: oklch(0.984 0.003 247.858);
+  --sidebar-primary: oklch(0.488 0.243 264.376);
+  --sidebar-primary-foreground: oklch(0.984 0.003 247.858);
+  --sidebar-accent: oklch(0.279 0.041 260.031);
+  --sidebar-accent-foreground: oklch(0.984 0.003 247.858);
+  --sidebar-border: oklch(1 0 0 / 10%);
+  --sidebar-ring: oklch(0.551 0.027 264.364);
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    letter-spacing: 0;
+    margin: 0;
+  }
+}
+
+@layer components {
+  .app-header { @apply sticky top-0 z-40 flex h-14 items-center gap-3 border-b border-border bg-background/95 px-4 backdrop-blur md:px-6; }
+  .brand-mark { @apply flex size-8 items-center justify-center rounded-md bg-primary text-primary-foreground; }
+  .app-header > div:nth-child(2) { @apply flex flex-col leading-none; }
+  .app-header > div:nth-child(2) b { @apply text-sm; }
+  .app-header > div:nth-child(2) span { @apply mt-1 text-[10px] uppercase text-muted-foreground; }
+  .app-header nav { @apply ml-5 hidden items-center gap-1 md:flex; }
+  .market-pill { @apply ml-auto flex items-center gap-2 text-xs text-muted-foreground; }
+  .market-pill i { @apply size-2 rounded-full bg-watch; }
+  .app-main { @apply mx-auto max-w-[1600px] px-3 py-5 md:px-6; }
+  .page-heading { @apply mb-5 flex flex-col justify-between gap-4 lg:flex-row lg:items-end; }
+  .eyebrow { @apply mb-1 font-mono text-[10px] font-semibold text-primary; }
+  .page-heading h1 { @apply text-2xl font-bold md:text-3xl; }
+  .page-heading > div:first-child > p:last-child { @apply mt-1 text-sm text-muted-foreground; }
+  .source-box { @apply min-w-[300px] border-l-2 border-primary pl-3; }
+  .source-box > div:first-child { @apply mb-2 flex items-center gap-2 text-xs; }
+  .source-input { @apply flex gap-2; }
+  .source-input input { @apply h-8 w-36 rounded-md border border-input bg-card px-2 font-mono text-xs uppercase outline-none focus:ring-2 focus:ring-ring; }
+  .source-box small { @apply mt-1 block text-[10px] text-muted-foreground; }
+  .kpi-grid { @apply mb-4 grid grid-cols-2 gap-px overflow-hidden rounded-md border border-border bg-border md:grid-cols-3 xl:grid-cols-6; }
+  .kpi { @apply bg-card p-3; }
+  .kpi span { @apply flex items-center gap-1.5 text-[11px] text-muted-foreground; }
+  .kpi strong { @apply mt-2 block font-mono text-2xl; }
+  .kpi small { @apply text-[10px] text-muted-foreground; }
+  .terminal-grid { @apply grid gap-4 xl:grid-cols-[minmax(520px,0.85fr)_minmax(650px,1.15fr)]; }
+  .watchlist, .chart-panel, .info-panel, .workspace { @apply rounded-md border border-border bg-card; }
+  .section-title, .panel-heading { @apply flex items-center justify-between border-b border-border px-4 py-3; }
+  .section-title h2, .panel-heading h3 { @apply text-sm font-semibold; }
+  .section-title span { @apply text-[10px] text-muted-foreground; }
+  .filters { @apply flex gap-2 border-b border-border p-2; }
+  .filters label { @apply flex h-8 items-center gap-2 rounded-md border border-input bg-background px-2 text-muted-foreground; }
+  .filters label:first-child { @apply flex-1; }
+  .filters input, .filters select { @apply min-w-0 flex-1 bg-transparent text-xs text-foreground outline-none; }
+  .table-scroll { @apply max-h-[766px] overflow-auto; }
+  table { @apply w-full border-collapse text-left text-xs; }
+  th { @apply sticky top-0 z-10 bg-muted px-3 py-2 font-medium text-muted-foreground; }
+  td { @apply border-t border-border px-3 py-2.5 font-mono; }
+  tr { @apply cursor-pointer hover:bg-accent/60; }
+  tr.selected { @apply bg-primary/5; }
+  td:first-child b, td:first-child span, td:nth-child(2) em { @apply block; }
+  td:first-child span { @apply mt-0.5 font-sans text-[10px] text-muted-foreground; }
+  td:nth-child(2) em { @apply mt-0.5 text-[10px] not-italic; }
+  .up { @apply text-positive; } .down { @apply text-failed; }
+  .badge { @apply inline-flex whitespace-nowrap rounded-full px-2 py-1 font-sans text-[9px] font-bold uppercase not-italic; }
+  .badge.positive { @apply bg-positive/10 text-positive; } .badge.watch { @apply bg-watch/15 text-watch; } .badge.failed { @apply bg-failed/10 text-failed; } .badge.neutral { @apply bg-muted text-muted-foreground; } .badge.large { @apply px-3 py-1.5 text-[10px]; }
+  .detail { @apply min-w-0 space-y-3; }
+  .stock-heading { @apply flex flex-wrap items-center gap-3 rounded-md border border-border bg-card p-3; }
+  .stock-heading > div:first-child { @apply flex items-center gap-3; }
+  .signal-icon { @apply flex size-10 items-center justify-center rounded-md; }
+  .signal-icon.positive { @apply bg-positive/10 text-positive; } .signal-icon.watch { @apply bg-watch/15 text-watch; } .signal-icon.failed { @apply bg-failed/10 text-failed; } .signal-icon.neutral { @apply bg-muted text-muted-foreground; }
+  .stock-heading h2 { @apply font-mono text-lg font-bold; } .stock-heading h2 small { @apply ml-2 text-[9px] text-muted-foreground; } .stock-heading p { @apply text-xs text-muted-foreground; }
+  .quote { @apply ml-auto text-right; } .quote strong { @apply block font-mono text-lg; } .quote span { @apply text-xs; }
+  .chart-toolbar { @apply flex flex-wrap items-center gap-2 border-b border-border p-2; }
+  .chart-tip { @apply flex flex-col gap-1 rounded-md border border-border bg-popover p-2 font-mono text-xs shadow-lg; }
+  .chart-legend { @apply flex flex-wrap gap-4 border-t border-border px-4 py-2 text-[10px] text-muted-foreground; }
+  .chart-legend span { @apply flex items-center gap-1; } .chart-legend i { @apply size-2 rounded-full; }
+  .dot-price { background: var(--chart-price); } .dot-ema21 { background: var(--chart-ema21); } .dot-ema50 { background: var(--chart-ema50); } .dot-positive { background: var(--signal-positive); } .dot-failed { background: var(--signal-failed); }
+  .analysis-grid { @apply grid gap-3 lg:grid-cols-3; }
+  .score-ring { @apply flex size-10 items-center justify-center rounded-full border-4 border-primary/25 font-mono text-sm; }
+  .metric-grid { @apply grid grid-cols-2 gap-px bg-border; } .metric-grid > div { @apply bg-card p-3; } .metric-grid span { @apply block text-[10px] text-muted-foreground; } .metric-grid b { @apply mt-1 block font-mono text-xs; }
+  .reason-list { @apply space-y-2 p-3 text-xs text-muted-foreground; } .reason-list li { @apply flex gap-2; } .reason-list i { @apply mt-1 size-1.5 shrink-0 rounded-full bg-muted-foreground; } .reason-list i.ok { @apply bg-positive; }
+  .vcp { @apply m-3 flex items-center gap-2 rounded-md bg-primary/5 p-2 text-primary; } .vcp div { @apply flex flex-col text-xs; } .vcp span { @apply font-mono text-[10px]; }
+  .score-list { @apply space-y-3 p-3; } .score-list > div { @apply grid grid-cols-[1fr_80px_38px] items-center gap-2 text-[10px] capitalize; } .score-list > div > div { @apply h-1.5 overflow-hidden rounded-full bg-muted; } .score-list i { @apply block h-full rounded-full bg-primary; } .score-list b { @apply text-right font-mono; }
+  .event-head { @apply flex items-center gap-2 p-3; } .event-head div { @apply flex flex-col text-xs; } .event-head span { @apply text-[10px] text-muted-foreground; } .event-dot { @apply size-3 rounded-full bg-positive; } .event-dot.failed, .event-dot.false { @apply bg-failed; }
+  .empty-state { @apply flex min-h-40 flex-col items-center justify-center gap-2 text-xs text-muted-foreground; }
+  .workspace { @apply overflow-hidden; } .workspace-head { @apply flex flex-col justify-between gap-3 border-b border-border p-5 md:flex-row md:items-center; } .workspace-head h2 { @apply text-lg font-bold; } .workspace-head p { @apply mt-1 text-xs text-muted-foreground; } .workspace-head select { @apply h-9 rounded-md border border-input bg-background px-3 text-xs; }
+  .comparison { @apply overflow-auto p-4; } .comparison-row { @apply grid min-w-[820px] grid-cols-[200px_repeat(5,minmax(120px,1fr))] border-b border-border; } .comparison-row > span, .comparison-row > strong, .comparison-row > div { @apply p-3 text-xs; } .comparison-row > span { @apply text-muted-foreground; } .comparison-row strong { @apply font-mono; } .comparison-row.header { @apply bg-muted; } .comparison-row.header div { @apply relative flex flex-col; } .comparison-row.header small { @apply text-[9px] text-muted-foreground; } .comparison-row.header button { @apply absolute right-1 top-1; }
+  .research-label { @apply inline-flex items-center gap-2 rounded-full bg-primary/10 px-3 py-1.5 text-xs text-primary; }
+  .backtest-layout { @apply grid lg:grid-cols-[280px_1fr]; } .backtest aside { @apply border-b border-border p-5 lg:border-b-0 lg:border-r; } .backtest aside h3 { @apply mb-5 text-sm font-semibold; }
+  .slider { @apply mb-5 block; } .slider span { @apply mb-2 flex justify-between text-xs text-muted-foreground; } .slider b { @apply font-mono text-foreground; } .slider input { @apply w-full accent-primary; }
+  .result-grid { @apply grid grid-cols-2 gap-px bg-border md:grid-cols-3; } .result { @apply bg-card p-5; } .result span { @apply block text-xs text-muted-foreground; } .result strong { @apply mt-2 block font-mono text-2xl; } .result.positive strong { @apply text-positive; } .result.failed strong { @apply text-failed; }
+  .method-note { @apply m-5 flex gap-3 rounded-md border border-primary/20 bg-primary/5 p-4 text-primary; } .method-note b { @apply text-sm; } .method-note p { @apply mt-1 text-xs text-muted-foreground; }
+  footer { @apply mx-auto flex max-w-[1600px] items-center gap-2 border-t border-border px-6 py-4 text-[10px] text-muted-foreground; }
+}
+
+@media (max-width: 767px) {
+  .app-header nav { @apply fixed bottom-0 left-0 right-0 z-50 flex justify-around border-t border-border bg-background p-2; }
+  .app-header nav button { @apply flex-1; }
+  .app-main { @apply pb-20; }
+  .table-scroll { @apply max-h-[480px]; }
+  .chart-panel { @apply -mx-3 rounded-none border-x-0; }
+}

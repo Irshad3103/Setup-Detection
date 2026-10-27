@@ -1,0 +1,465 @@
+symbol,name,sector
+63MOONS,63 Moons Tech.,Computers - Software & Consulting
+AARTIIND,Aarti Industries,Specialty Chemicals
+AARTIPHARM,Aarti Pharma,Pharmaceuticals
+ABB,A B B,Heavy Electrical Equipment
+ABCAPITAL,Aditya Birla Cap,Investment Company
+ABSMARINE,ABS Marine,Shipping
+ACCENTMIC,Accent Microcell,Pharmaceuticals
+ACE,Action Const.Eq.,Construction Vehicles
+ACMESOLAR,ACME Solar Hold.,Power Generation
+ACUTAAS,Acutaas Chemical,Pharmaceuticals
+ADANIENT,Adani Enterp.,Trading - Minerals
+ADOR,Ador Welding,Other Industrial Products
+ADVAIT,Advait Energy,Other Electrical Equipment
+AEGISLOG,Aegis Logistics,Trading - Gas
+AEQUS,Aequs,Aerospace & Defense
+AEROFLEX,Aeroflex,Iron & Steel Products
+AEROPLANE,A C J K Exports,Other Agricultural Products
+AETHER,Aether Industri.,Specialty Chemicals
+AGARWALEYE,Dr Agarwal's Hea,Hospital
+AHCL,Anlon Healthcare,Pharmaceuticals
+AIMTRON,Aimtron,Industrial Products
+AJANTPHARM,Ajanta Pharma,Pharmaceuticals
+ALGOQUANT,Algoquant Fin,Other Financial Services
+ALKYLAMINE,Alkyl Amines,Specialty Chemicals
+AMBIKCO,Ambika Cotton,Other Textile Products
+ANGELONE,Angel One,Stockbroking & Allied
+ANLON,Anlon Tech,Diversified Commercial Services
+ANONDITA,Anondita Medi.,Personal Care
+ANTELOPUS,Antelopus Selan,Oil Exploration & Production
+ANZEN,Anzen IYEP Trust,Power - Transmission
+APARINDS,Apar Inds.,Other Electrical Equipment
+APCOTEXIND,Apcotex Industri,Rubber
+APLLTD,Alembic Pharma,Pharmaceuticals
+APOLLOHOSP,Apollo Hospitals,Hospital
+APSISAERO,Apsis Aerocom,Aerospace & Defense
+ARMANFIN,Arman Financial,Non Banking Financial Company (NBFC)
+ARROWGREEN,Arrow Greentech,Packaging
+ARVIND,Arvind Ltd,Garments & Apparels
+ASIANENE,Asian Energy,Oil Equipment & Services
+ASKAUTOLTD,ASK Automotive,Auto Components & Equipments
+ASTERDM,Aster DM Quality,Hospital
+ATHERENERG,Ather Energy,2/3 Wheelers
+AUBANK,AU Small Finance,Other Bank
+AURUM,Aurum Proptech,IT Enabled Services
+AVALON,Avalon Tech,Other Electrical Equipment
+AVL,Aditya Vision,Speciality Retail
+AVTNPL,AVT Natural Prod,Other Agricultural Products
+AZAD,Azad Engineering,Heavy Electrical Equipment
+BAHETI,Baheti Recycling,"Aluminium, Copper & Zinc Products"
+BAJAJ-AUTO,Bajaj Auto,2/3 Wheelers
+BALAMINES,Balaji Amines,Specialty Chemicals
+BEEKAY,Beekay Steel Ind,Iron & Steel Products
+BEML,BEML Ltd,Construction Vehicles
+BENARAS,Benares Hotels,Hotels & Resorts
+BEPL,Bhansali Engg.,Petrochemicals
+BHAGERIA,Bhageria Indust.,Dyes And Pigments
+BHAGYANGR,Bhagyanagar Ind,Copper
+BHEL,B H E L,Heavy Electrical Equipment
+BIL,Bhartiya Intl.,Leather And Leather Products
+BIRET,Brookfield India,Real Estate Investment Trusts (REITs)
+BIRLACABLE,Birla Cable,Telecom -  Equipment & Accessories
+BLACKBUCK,Blackbuck,Transport Related Services
+BLISSGVS,Bliss GVS Pharma,Pharmaceuticals
+BLSE,BLS E-Services,IT Enabled Services
+BLUESTONE,Bluestone Jewel,"Gems, Jewellery And Watches"
+BODALCHEM,Bodal Chemicals,Dyes And Pigments
+BOSCH-HCIL,Bosch Home Comfort,Household Appliances
+BOSCHLTD,Bosch,Auto Components & Equipments
+BUILDPRO,Shankara Buildpro,Speciality Retail
+CAPINVIT,Capital Infra,Civil Construction
+CASTROLIND,Castrol India,Lubricants
+CENTENKA,Century Enka,Other Textile Products
+CGCL,Capri Global,Non Banking Financial Company (NBFC)
+CHEMBONDCH,Chembond Chemic.,Specialty Chemicals
+CHENNPETRO,C P C L,Refineries & Marketing
+CHEVIOT,Cheviot Company,Jute & Jute Products
+CHOLAFIN,Cholaman.Inv.&Fn,Non Banking Financial Company (NBFC)
+CLEANMAX,Clean Max Enviro,Power Generation
+CNL,Creative Newtech,Trading & Distributors
+COFORGE,Coforge,Computers - Software & Consulting
+COMMITTED,Committed Cargo,Logistics Solution Provider
+COMSYN,Commerl. Synbags,Packaging
+CONCORDBIO,Concord Biotech,Pharmaceuticals
+CONFIPET,Confidence Petro,LPG/CNG/PNG/LNG Supplier
+CORONA,Corona Remedies,Pharmaceuticals
+COSMOFIRST,Cosmo First,Packaging
+CPPLUS,Aditya Infotech,Industrial Products
+CRAFTSMAN,Craftsman Auto,Auto Components & Equipments
+CREDITACC,CreditAcc. Gram.,Microfinance Institutions
+CRISIL,CRISIL,Other Financial Services
+CUB,City Union Bank,Private Sector Bank
+CUPID,Cupid,Personal Care
+CYIENT,Cyient,IT Enabled Services
+CYIENTDLM,Cyient DLM,Aerospace & Defense
+DECNGOLD,Dec.Gold Mines,Precious Metals
+DEEDEV,DEE Development,Industrial Products
+DEEPINDS,Deep Industries,Oil Equipment & Services
+DHOOTTRANS,Dhoot Transmission,Auto Components & Equipments
+DIACABS,Diamond Power,Other Electrical Equipment
+DICIND,DIC India,Printing Inks
+DIFFNKG,Diffusion Eng,Other Industrial Products
+DIVGIITTS,Divgi Torq,Auto Components & Equipments
+DIVISLAB,Divi's Lab.,Pharmaceuticals
+DOLPHIN,Dolphin Offshore,Offshore Support Solution Drilling
+DRAGARWQ,Dr Agarwal's Eye,Hospital
+E2E,E2E Networks,IT Enabled Services
+E2ERAIL,E to E Transportation,Civil Construction
+EBGNG,GNG Electronics,Computers Hardware & Equipments
+EFFWA,Effwa Infra,Waste Management
+EICHERMOT,Eicher Motors,2/3 Wheelers
+ELANTAS,Elantas Beck,Specialty Chemicals
+ELGIEQUIP,Elgi Equipments,"Compressors, Pumps & Diesel Engines"
+ELPROINTL,Elpro Internatio,"Residential, Commercial Projects"
+EMAMIPAP,Emami Paper,Paper & Paper Products
+EMCURE,Emcure Pharma,Pharmaceuticals
+EMIL,Electronics Mart,Diversified Retail
+EMMVEE,Emmvee Photovol.,Other Electrical Equipment
+EMUDHRA,eMudhra,IT Enabled Services
+ENTERO,Entero Healthcar,Pharmacy Retail
+EPL,EPL Ltd,Packaging
+ESAFSFB,ESAF Small Fin,Other Bank
+ETERNAL,Eternal,E-Retail/ E-Commerce
+ETHOSLTD,Ethos,"Gems, Jewellery And Watches"
+ETL,Emkay Tools,Industrial Products
+EXICOM,Exicom Tele-Sys.,Heavy Electrical Equipment
+FCL,Fineotex Chem,Specialty Chemicals
+FEDFINA,Fedbank Financi.,Non Banking Financial Company (NBFC)
+FINCABLES,Finolex Cables,Cables - Electricals
+FLUOROCHEM,Gujarat Fluoroch,Specialty Chemicals
+FLYSBS,FlySBS Aviation,Airline
+FSL,Firstsour.Solu.,Business Process Outsourcing (BPO)/ Knowledge Process Outsourcing (KPO)
+GAEL,Guj. Ambuja Exp,Other Agricultural Products
+GALAXYSURF,Galaxy Surfact.,Specialty Chemicals
+GANDHAR,Gandhar Oil Ref.,Lubricants
+GANESHBE,Ganesh Benzopl.,Oil Storage & Transportation
+GARFIBRES,Garware Tech.,Other Textile Products
+GAYAPROJ,Gayatri Projects,Civil Construction
+GCSL,Gretex Corporate,Other Capital Market related Services
+GEECEE,GeeCee Vent.,"Residential, Commercial Projects"
+GHCLTEXTIL,GHCL Textiles,Other Textile Products
+GIPCL,Guj Inds. Power,Power Generation
+GKSL,Gujarat Kidney,Hospital
+GLENMARK,Glenmark Pharma.,Pharmaceuticals
+GNA,GNA Axles,Auto Components & Equipments
+GNFC,G N F C,Commodity Chemicals
+GNRL,Guj.Nat.Resour.,Oil Exploration & Production
+GOCLCORP,GOCL Corpn.,Explosives
+GOLDIAM,Goldiam Intl.,"Gems, Jewellery And Watches"
+GOODLUCK,Goodluck India,Iron & Steel Products
+GPPL,Guj Pipavav Port,Port & Port services
+GRANULES,Granules India,Pharmaceuticals
+GRAPHITE,Graphite India,Electrodes & Refractories
+GRASIM,Grasim Inds,Cement & Cement Products
+GREENPLY,Greenply Industr,Plywood Boards/ Laminates
+GROWW,Billionbrains,Stockbroking & Allied
+GRPLTD,GRP,Rubber
+GRWRHITECH,Garware Hi Tech,Plastic Products - Industrial
+GUJTHEM,Guj. Themis Bio.,Pharmaceuticals
+HALDYNGL,Haldyn Glass,Packaging
+HAPPYFORGE,Happy Forgings,Castings & Forgings
+HARSHA,Harsha Engg Intl,Other Industrial Products
+HATSUN,Hatsun Agro,Dairy Products
+HAWKINCOOK,Hawkins Cookers,Houseware
+HEXAGON,Hexagon Nutri.,Packaged Foods
+HFCL,HFCL,Telecom - Infrastructure
+HINDALCO,Hindalco Inds.,Aluminium
+HINDOILEXP,Hind.Oil Explor.,Oil Exploration & Production
+HIRECT,Hirect,Industrial Products
+HITECHCORP,Hitech Corp.,Packaging
+HONASA,Honasa Consumer,Personal Care
+IBULLSLTD,Indiabulls,Diversified Commercial Services
+ICIL,Indo Count Inds.,Other Textile Products
+IGPL,I G Petrochems,Commodity Chemicals
+IIFL,IIFL Finance,Non Banking Financial Company (NBFC)
+IKIO,IKIO Tech,Consumer Electronics
+IKS,Inventurus Knowl,IT Enabled Services
+INDGN,Indegene,"Healthcare Research, Analytics & Technology"
+INDIGRID,IndiGrid Trust,Power - Transmission
+INDIQUBE,Indiqube Spaces,Diversified Commercial Services
+INDNIPPON,India Nipp.Elec.,Auto Components & Equipments
+INDOBORAX,Indo Borax & Ch.,Commodity Chemicals
+INDOTECH,Indo Tech.Trans.,Heavy Electrical Equipment
+INDSWFTLAB,Ind-Swift Labs.,Pharmaceuticals
+INDUSINVIT,Indus Inf. Trust,"Road AssetsToll, Annuity, Hybrid-Annuity"
+INFLUX,Influx Health.,Pharmaceuticals
+INGERRAND,Ingersoll-Rand,"Compressors, Pumps & Diesel Engines"
+INNOVACAP,Innova Captab,Pharmaceuticals
+"Intimation Regarding Receipt Of In-Principal Approval For Preferential Issue Of Compulsorily Convertible Debentures (Ccds)
+
+          
+            12 Sep - BSE and NSE granted in-principle approval for 37.5 lakh CCDs of Rs 400 each on preferential basis.",Prec. Wires (I),"Aluminium, Copper & Zinc Products"
+INVPRECQ,Inv.& Prec.Cast.,Castings & Forgings
+IOLCP,IOL Chemicals,Pharmaceuticals
+IONEXCHANG,ION Exchange,Water Supply & Management
+IPCALAB,Ipca Labs.,Pharmaceuticals
+IRBINVIT,IRB InvIT Fund,"Road AssetsToll, Annuity, Hybrid-Annuity"
+IRISDOREME,Iris Clothings,Garments & Apparels
+JGCHEM,J.G.Chemicals,Commodity Chemicals
+JINDALPHOT,Jindal Photo,Investment Company
+JNPR,Juniper Green,Power Generation
+JSFB,Jana Small Finan,Other Bank
+JTLIND,JTL Industries,Iron & Steel Products
+JYOTICNC,Jyoti CNC Auto.,Industrial Products
+KABRAEXTRU,Kabra Extrusion,Industrial Products
+KAJARIACER,Kajaria Ceramics,Ceramics
+KALYANKJIL,Kalyan Jewellers,"Gems, Jewellery And Watches"
+KANORICHEM,Kanoria Chem.,Industrial Products
+KDDL,KDDL Ltd,"Gems, Jewellery And Watches"
+KENNAMET,Kennametal India,Industrial Products
+KIMS,Krishna Institu.,Hospital
+KINGFA,Kingfa Science,Plastic Products - Industrial
+KIRANVYPAR,Kiran Vyapar,Non Banking Financial Company (NBFC)
+KISSHT,Onemi Technology,Other Financial Services
+KMCSHIL,KMC Speciality,Hospital
+KMEW,Knowledge Marine,Dredging
+KODYTECH,Kody Technolab,Computers - Software & Consulting
+KPL,Kwality Pharma,Pharmaceuticals
+KRISHANA,Krishana Phosch.,Fertilizers
+KRISHIVAL,Krishival Foods,Other Food Products
+KRMAYURVED,KRM Ayurveda,Pharmaceuticals
+KRN,KRN Heat Exchan,Other Industrial Products
+KROSS,Kross Ltd,Auto Components & Equipments
+KSHINTL,KSH Internationa,Cables - Electricals
+LALITHAA,Lalithaa Jewel,"Gems, Jewellery And Watches"
+LAURUSLABS,Laurus Labs,Pharmaceuticals
+LCL,Lohia Corp,Industrial Products
+LENSKART,Lenskart Solut.,Speciality Retail
+LGBBROSLTD,L G Balakrishnan,Auto Components & Equipments
+LLOYDSENGG,Lloyds Engineeri,Industrial Products
+LLOYDSME,Lloyds Metals,Industrial Minerals
+LMW,LMW,Industrial Products
+LODHA,Lodha Developers,"Residential, Commercial Projects"
+LOTUSDEV,Sri Lotus,"Residential, Commercial Projects"
+LTF,L&T Finance Ltd,Non Banking Financial Company (NBFC)
+LTFOODS,L T Foods,Other Agricultural Products
+LUMAXIND,Lumax Industries,Auto Components & Equipments
+LUMAXTECH,Lumax Auto Tech.,Auto Components & Equipments
+MACPOWER,Macpower CNC,Industrial Products
+MAHASTEEL,Mahamaya Steel,Iron & Steel Products
+MAHLOG,Mahindra Logis.,Logistics Solution Provider
+MANAKSTEEL,Manaksia Steels,Iron & Steel
+MANAPPURAM,Manappuram Fin.,Non Banking Financial Company (NBFC)
+MANBA,Manba Finance,Non Banking Financial Company (NBFC)
+MANINDS,Man Industries,Iron & Steel Products
+MANIPALHOS,Manipal Health,Hospital
+MANORAMA,Manorama Indust.,Other Food Products
+MARICO,Marico,Edible Oil
+MARINE,Marine Electric.,Industrial Products
+MARKSANS,Marksans Pharma,Pharmaceuticals
+MAYURUNIQ,Mayur Uniquoters,Leather And Leather Products
+MCX,Multi Comm. Exc.,Exchange and Data Platform
+MEDANTA,Global Health,Hospital
+MEESHO,Meesho,E-Retail/ E-Commerce
+MENONBE,Menon Bearings,Auto Components & Equipments
+MIDHANI,Mishra Dhatu Nig,Aerospace & Defense
+MILKYMIST,Milky Mist Dairy,Dairy Products
+MINDACORP,Minda Corp,Auto Components & Equipments
+MINDSPACE,Mindspace Busine,Real Estate Investment Trusts (REITs)
+MMP,MMP Industries,Aluminium
+MODIS,Modi's Navnirman,"Residential, Commercial Projects"
+MODISONLTD,Modison,Other Electrical Equipment
+MOLDTECH,Mold-Tek Technol,Civil Construction
+MONOLITH,Monolithisch Ind,Electrodes & Refractories
+MOREPENLAB,Morepen Labs.,Pharmaceuticals
+MOTILALOFS,Motil.Oswal.Fin.,Stockbroking & Allied
+MOTISONS,Motisons Jewel,"Gems, Jewellery And Watches"
+MPSLTD,MPS,Printing & Publication
+MSTCLTD,MSTC,Trading & Distributors
+MUFIN,Mufin Green,Non Banking Financial Company (NBFC)
+MUKANDLTD,Mukand,Iron & Steel Products
+MUKKA,Mukka Proteins,Animal Feed
+MVGJL,Manoj Vaibhav,"Gems, Jewellery And Watches"
+NAM-INDIA,Nippon Life Ind.,Asset Management Company
+NAMOEWASTE,Namo eWaste,Waste Management
+NAVINFLUOR,Navin Fluo.Intl.,Specialty Chemicals
+NDRINVIT,NDR INVIT Trust,Diversified Commercial Services
+NEOGEN,Neogen Chemicals,Specialty Chemicals
+NEPHROPLUS,Nephrocare Health Services,Healthcare Service Provider
+NESTLEIND,Nestle India,Packaged Foods
+NEULANDLAB,Neuland Labs.,Pharmaceuticals
+NHIT,National High,"Road AssetsToll, Annuity, Hybrid-Annuity"
+NORTHARC,Northern Arc,Non Banking Financial Company (NBFC)
+NPST,Network People,Financial Technology (Fintech)
+NRAIL,N R Agarwal Inds,Paper & Paper Products
+NRL,Nupur Recyclers,Trading - Metals
+NUVAMA,Nuvama Wealth,Stockbroking & Allied
+NYKAA,FSN E-Commerce,E-Retail/ E-Commerce
+OBSCP,OBSC Perfection,Auto Components & Equipments
+OFSS,Oracle Fin.Serv.,Software Products
+OIL,Oil India,Oil Exploration & Production
+OMAXE,Omaxe,"Residential, Commercial Projects"
+ONEPOINT,One Point One,Business Process Outsourcing (BPO)/ Knowledge Process Outsourcing (KPO)
+OPTIEMUS,Optiemus Infra.,Telecom -  Equipment & Accessories
+ORIENTBELL,Orient Bell,Ceramics
+PANACHE,Panache Digilife,IT Enabled Services
+PANORAMA,Panorama Studios,"Film Production, Distribution & Exhibition"
+PARAS,Paras Defence,Aerospace & Defense
+PAYTM,One 97,Financial Technology (Fintech)
+PCCL,Petro Carbon,Industrial Minerals
+PCJEWELLER,PC Jeweller,"Gems, Jewellery And Watches"
+PERSISTENT,Persistent Systems,Computers - Software & Consulting
+PFOCUS,Prime Focus,Media & Entertainment
+PGIL,Pearl Global Ind,Garments & Apparels
+PIDILITIND,Pidilite Inds.,Specialty Chemicals
+PIRAMALFIN,Piramal Finance.,Housing Finance Company
+PIXTRANS,Pix Transmission,Rubber
+PNGJL,P N Gadgil Jewe.,"Gems, Jewellery And Watches"
+POLICYBZR,PB Fintech.,Financial Technology (Fintech)
+POLYMED,Poly Medicure,Medical Equipment & Supplies
+POLYPLEX,Polyplex Corpn,Packaging
+PRABHA,Prabha Energy,Oil Exploration & Production
+PREMIERPOL,Premier Polyfilm,Plastic Products - Industrial
+PRICOLLTD,Pricol Ltd,Auto Components & Equipments
+PRIZOR,Prizor Viztech,Industrial Products
+PROV,Proventus Agro.,Other Food Products
+PTCIL,PTC Industries,Castings & Forgings
+PVP,PVP Ventures,"Residential, Commercial Projects"
+QPOWER,Quality Power El,Heavy Electrical Equipment
+QUADFUTURE,Quadrant Future,Cables - Electricals
+RACLGEAR,RACL Geartech,Auto Components & Equipments
+RADHIKAJWE,Radhika Jeweltec,"Gems, Jewellery And Watches"
+RAINBOW,Rainbow Child.,Hospital
+RAJRATAN,Rajratan Global,Auto Components & Equipments
+RAMBHAJO,Advit Jewels,"Gems, Jewellery And Watches"
+RAMRAT,Ram Ratna Wires,Other Electrical Equipment
+RATEGAIN,Rategain Travel,Computers - Software & Consulting
+RBZJEWEL,RBZ Jewellers Lt,"Gems, Jewellery And Watches"
+REDINGTON,Redington,Trading & Distributors
+RELIGARE,Religare Enterp.,Investment Company
+REMUS,Remus Pharma.,Pharmaceuticals
+RGL,Renaiss. Global,"Gems, Jewellery And Watches"
+ROSSTECH,Rossell Techsys,Aerospace & Defense
+RPTECH,Rashi Peripheral,Computers Hardware & Equipments
+RRKABEL,R R Kabel,Cables - Electricals
+RSL,Rajputana Stain.,Iron & Steel Products
+RUBICON,Rubicon Research,Pharmaceuticals
+RUBYMILLS,Ruby Mills,Other Textile Products
+SACHEEROME,Sacheerome,Specialty Chemicals
+SAHANA,Sahana Systems,IT Enabled Services
+SAHASRA,Sahasra Electro.,Other Industrial Products
+SAKAR,Sakar Healthcare,Pharmaceuticals
+SAMBHV,Sambhv Steel,Iron & Steel Products
+SANATHAN,Sanathan Textile,Other Textile Products
+SANSERA,Sansera Enginee.,Auto Components & Equipments
+SANSTAR,Sanstar,Other Agricultural Products
+SAREGAMA,Saregama India,Media & Entertainment
+SBC,SBC Exports,Garments & Apparels
+SBCL,Shivalik Bimetal,Iron & Steel Products
+SEAMECLTD,SEAMEC Ltd,Shipping
+SEDEMAC,Sedemac Mechatro,Auto Components & Equipments
+SENORES,Senores Pharma.,Pharmaceuticals
+SETL,Standard Engineering Technology,Industrial Products
+SGFIN,SG Finserve,Non Banking Financial Company (NBFC)
+SHADOWFAX,Shadowfax Technologies,Logistics Solution Provider
+SHAILY,Shaily Engineer.,Plastic Products - Consumer
+SHANTIGOLD,Shanti Gold,"Gems, Jewellery And Watches"
+SHAREINDIA,Share India Sec.,Stockbroking & Allied
+SHILPAMED,Shilpa Medicare,Pharmaceuticals
+SHIVAUM,Shiv Aum Steels,Trading & Distributors
+SHREEJISPG,Shreeji Ship. Gl,Shipping
+SHRIPISTON,SPR Auto Technologies,Auto Components & Equipments
+SHUKRAPHAR,Shukra Pharma.,Pharmaceuticals
+SHYAMMETL,Shyam Metalics,Iron & Steel Products
+SIGMAADV,Sigma Advanced System,Aerospace & Defense
+SIS,SIS,Other Consumer Services
+SJS,SJS Enterprises,Auto Components & Equipments
+SKYGOLD,Sky Gold & Diam.,"Gems, Jewellery And Watches"
+SMARTWORKS,Smartworks Cowor,Diversified Commercial Services
+SMCGLOBAL,SMC Global Sec.,Stockbroking & Allied
+SOFTTECH,Softtech Enginee,Computers - Software & Consulting
+SOLARINDS,Solar Industries,Explosives
+SOMANYCERA,Somany Ceramics,Ceramics
+SONACOMS,Sona BLW Precis.,Auto Components & Equipments
+SOTL,Savita Oil Tech,Lubricants
+SPECTRUM,Spectrum Electr.,Industrial Products
+SPLPETRO,Supreme Petroch.,Petrochemicals
+SPORTKING,Sportking India,Other Textile Products
+SSWL,Steel Str. Wheel,Auto Components & Equipments
+STLTECH,Sterlite Tech.,Telecom -  Equipment & Accessories
+STOVEKRAFT,Stove Kraft,Household Appliances
+STYL,Seshaasai Tech.,Financial Technology (Fintech)
+STYLEBAAZA,Baazar Style,Speciality Retail
+SUDEEPPHRM,Sudeep Pharma,Pharmaceuticals
+SUNDRMFAST,Sundram Fasten.,Auto Components & Equipments
+SUNLITE,Sunlite Recycli.,"Aluminium, Copper & Zinc Products"
+SUNRAKSHAK,Sunrakshakk Inds,Other Textile Products
+SUPRAJIT,Suprajit Engg.,Auto Components & Equipments
+SUPRIYA,Supriya Lifesci.,Pharmaceuticals
+SURAKSHA,Suraksha Diagno.,Healthcare Service Provider
+SUVEN,Suven Life Scie.,"Healthcare Research, Analytics & Technology"
+SVLL,Shree Vasu Logis,Logistics Solution Provider
+SWANDEF,Swan Defence,Ship Building & Allied Services
+SYRMA,Syrma SGS Tech.,Industrial Products
+TAALTECH,TAAL Tech,Airline
+TANKUP,Tankup Engi.,Other Industrial Products
+TARSONS,Tarsons Products,Medical Equipment & Supplies
+TASTYBITE,Tasty Bite Eat.,Packaged Foods
+TATATECH,Tata Technolog.,IT Enabled Services
+TATVA,Tatva Chintan,Specialty Chemicals
+TBOTEK,TBO Tek,"Tour, Travel Related Services"
+TBZ,T B Z,"Gems, Jewellery And Watches"
+TDPOWERSYS,TD Power Systems,Heavy Electrical Equipment
+TEJASCARGO,Tejas Cargo,Logistics Solution Provider
+TFCILTD,Tour. Fin. Corp.,Financial Institution
+THEJO,Thejo Engg.,Industrial Products
+THELEELA,Leela Palaces Hotels,Hotels & Resorts
+THYROCARE,Thyrocare Tech.,Healthcare Service Provider
+TI,Tilaknagar Inds.,Breweries & Distilleries
+TIIL,Technocraf.Inds.,Iron & Steel Products
+TIMEX,Timex Group,"Gems, Jewellery And Watches"
+TIPSMUSIC,Tips Music,Media & Entertainment
+TITAN,Titan Company,"Gems, Jewellery And Watches"
+TNPETRO,T N Petro Prod.,Petrochemicals
+TORNTPHARM,Torrent Pharma.,Pharmaceuticals
+TVSMOTOR,TVS Motor Co.,2/3 Wheelers
+TVSSCS,TVS Supply,Logistics Solution Provider
+TVSSRICHAK,TVS Srichakra,Tyres & Rubber Products
+UFBL,United Foodbrands,Restaurants
+UFLEX,Uflex,Packaging
+UGARSUGAR,Ugar Sugar Works,Sugar
+UJJIVANSFB,Ujjivan Small,Other Bank
+ULTRAMAR,Ultramarine Pig.,Dyes And Pigments
+UNIMECH,Unimech Aero.,Aerospace & Defense
+UNIPARTS,Uniparts India,Auto Components & Equipments
+UNITEDPOLY,United Polyfab,Other Textile Products
+UNOMINDA,Uno Minda,Auto Components & Equipments
+URBANCO,Urban Company,E-Retail/ E-Commerce
+UTLSOLAR,Fujiyama Power,Other Electrical Equipment
+UTSSAV,Utssav CZ Gold,"Gems, Jewellery And Watches"
+VADILALIND,Vadilal Inds.,Dairy Products
+VADILENT,Vadilal Enterp.,Dairy Products
+VALIANTLAB,Valiant Laborato,Pharmaceuticals
+VARROC,Varroc Engineer,Auto Components & Equipments
+VENKEYS,Venky's (India),Meat Products including Poultry
+VERTIS,Vertis Infra.,"Road AssetsToll, Annuity, Hybrid-Annuity"
+VGUARD,V-Guard Industri,Household Appliances
+VHLTD,Viceroy Hotels,Hotels & Resorts
+VIDHIING,Vidhi Specialty,Specialty Chemicals
+VIESL,Vision Infra,Diversified Commercial Services
+VIJAYA,Vijaya Diagnost.,Healthcare Service Provider
+VINCOFE,Vintage Coffee,Tea & Coffee
+VINSYS,Vinsys IT Serv.,Education
+VINYAS,Vinyas Innovativ,Industrial Products
+VISHNU,Vishnu Chemicals,Specialty Chemicals
+VIVIDEL,Vivid Electromech,Other Electrical Equipment
+VMARCIND,V-Marc India,Cables - Electricals
+VMART,V-Mart Retail,Diversified Retail
+VOEPL,Virtuoso Optoel.,Diversified consumer products
+VOLTAMP,Volt.Transform.,Heavy Electrical Equipment
+WABAG,Va Tech Wabag,Water Supply & Management
+WELINV,Welspun Investme,Investment Company
+WELSPUNLIV,Welspun Living,Other Textile Products
+WENDT,Wendt India,Abrasives & Bearings
+WEWORK,Wework India,Diversified Commercial Services
+WINDMACHIN,Windsor Machines,Industrial Products
+WOCKPHARMA,Wockhardt,Pharmaceuticals
+YASHO,Yasho Industries,Specialty Chemicals
+YATHARTH,Yatharth Hospit.,Hospital
+YUKEN,Yuken India,"Compressors, Pumps & Diesel Engines"
+ZIMLAB,Zim Laboratories,Pharmaceuticals
+ZYDUSLIFE,Zydus Lifesci.,Pharmaceuticals
+ZYDUSWELL,Zydus Wellness,Packaged Foods
+KROSS, Kross Limites, Auto
+ 

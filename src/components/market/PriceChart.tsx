@@ -18,6 +18,7 @@ import { Eye, Maximize2, Minus, Plus } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import type { BreakoutEvent, StockAnalysis } from "@/lib/market";
 
+
 const money = (n: number) =>
   `₹${n.toLocaleString("en-IN", { maximumFractionDigits: 2 })}`;
 

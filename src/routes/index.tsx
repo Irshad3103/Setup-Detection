@@ -9,7 +9,8 @@ import { fetchMarketUniverse } from "@/lib/market-data.functions";
 
 export const Route = createFileRoute("/")({
   head: () => ({ meta: [
-    { title: "Breakout Lab — Indian Equity Research" },
+    // { title: "LEMAI — Indian Equity Research" },
+     { title: "LEMAI" },
     { name: "description", content: "Detect, inspect and validate technical stock breakouts across Indian equities." },
     { property: "og:title", content: "Breakout Lab — Indian Equity Research" },
     { property: "og:description", content: "A chart-first breakout detection and historical validation workstation." },

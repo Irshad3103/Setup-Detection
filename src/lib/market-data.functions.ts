@@ -23,7 +23,7 @@ async function fetchHistory(source: StockSource) {
     if (open == null || high == null || low == null || close == null || volume == null) return [];
     return [{ date: new Date(time * 1000).toISOString().slice(0, 10), open, high, low, close, volume }];
   });
-  if (candles.length < 220) throw new Error(`${source.symbol}: insufficient daily history`);
+  if (candles.length < 20) throw new Error(`${source.symbol}: insufficient daily history`);
   return { ...source, symbol: ticker, candles };
 }
 
